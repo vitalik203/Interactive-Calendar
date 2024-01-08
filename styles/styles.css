@@ -1,1 +1,13 @@
-/*# sourceMappingURL=styles.css.map */
+body {
+  font-family: Inter;
+}
+
+.prev {
+  background: none;
+  border: 0;
+}
+
+.next {
+  background: none;
+  border: 0;
+}/*# sourceMappingURL=styles.css.map */
