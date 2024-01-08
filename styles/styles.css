@@ -2,12 +2,42 @@ body {
   font-family: Inter;
 }
 
+.wrapper {
+  width: 502px;
+  height: 497px;
+  border: 2px solid rgb(188, 187, 187);
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(64px, 1fr));
+}
+
 .prev {
   background: none;
   border: 0;
 }
 
+.calendar__information {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  grid-column: span 5;
+}
+
 .next {
   background: none;
   border: 0;
+}
+
+.days__of__week {
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  margin: 0 auto;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
