@@ -40,4 +40,12 @@ body {
 div {
   margin: 0 auto;
   align-items: center;
+}
+
+.today {
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(255, 119, 0);
+  border: 1px solid black;
 }/*# sourceMappingURL=styles.css.map */
